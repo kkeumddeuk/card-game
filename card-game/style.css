@@ -1,8 +1,9 @@
 @font-face {
   font-family: "Galmuri11-Condensed";
-  src: url("card-game/Galmuri11-Condensed.woff2") format("woff2");
+  src: url("/card-game/Galmuri11-Condensed.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
