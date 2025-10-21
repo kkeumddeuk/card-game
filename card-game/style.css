@@ -22,13 +22,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Galmuri11-Condensed";
+  font-family: "Galmuri11-Condensed", system-ui, sans-serif !important;
   letter-spacing: 2px;
 }
 
 @media (max-width: 599px) {
   body, html, * {
-    font-family: "Galmuri11-Condensed", system-ui !important;
+    font-family: "Galmuri11-Condensed", system-ui, sans-serif !important;
   }
 }
 
