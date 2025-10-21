@@ -25,6 +25,13 @@
   letter-spacing: 2px;
 }
 
+@media (max-width: 599px) {
+  body, html, * {
+    font-family: "Galmuri11-Condensed", system-ui !important;
+  }
+}
+
+
 html,
 body {
   height: 100%;
