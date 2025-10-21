@@ -1,11 +1,11 @@
 // 카드 속 이미지 여기서 넣는 거임.
 const icons = [
-  "./jaehee.png",
-  "./riku.png",
-  "./ryo.png",
-  "./sakuya.png",
-  "./sion.png",
-  "./yushi.png",
+  "card-game/jaehee.png",
+  "card-game/riku.png",
+  "card-game/ryo.png",
+  "card-game/sakuya.png",
+  "card-game/sion.png",
+  "card-game/yushi.png",
 ];
 
 let cards = [...icons, ...icons];
