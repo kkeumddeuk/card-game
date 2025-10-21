@@ -39,7 +39,7 @@ function createBoard() {
 
     // 위츄 여기에서 넣은 거임.
     const frontImg = document.createElement("img");
-    frontImg.src = "./WISH.png"; // 여기에다가 위츄 경로를 넣어주면 됨.
+    frontImg.src = "card-game/WISH.png"; // 여기에다가 위츄 경로를 넣어주면 됨.
     frontImg.className = "front-image";
     front.appendChild(frontImg);
 
