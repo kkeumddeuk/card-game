@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Retro Card Game</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/png" href="./apple-icon.png" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  </head>
+  <body>
+    <!-- 배경 -->
+    <div class="floating-bg"></div>
+    <!-- 전체 게임기 -->
+    <div class="phone-frame">
+      <div class="header">MATCH THE PAIRS!</div>
+
+      <div class="message-box">
+        <div class="grid" id="grid"></div>
+      </div>
+
+      <!-- 게임 영역 아래 위치한 버튼 -->
+
+      <div class="buttons">
+        <button
+          class="btn"
+          onclick="window.open('https://blog.naver.com/aueu_kddol/224047789623','_blank')"
+        >
+          블로그구경
+        </button>
+        <button class="btn" onclick="resetGame()">재시작</button>
+      </div>
+    </div>
+
+    <!-- 게임 성공했을 때 나오는 팝업창 -->
+
+    <div id="popup" class="hidden">
+      <span class="popup-emoji">🎉</span>
+      <div class="popup-text">축하합니다! 님 천재임ㅇㅇ.</div>
+      <button id="popup-close" class="popup-close">닫기</button>
+    </div>
+
+    <!-- 효과음 -->
+    <audio
+      id="click-sound"
+      src="./18 클릭 (마우스).mp3"
+      preload="auto"
+    ></audio>
+    <audio id="party-sound" src="./11. 멜로디.mp3" preload="auto"></audio>
+    <script src="./script.js"></script>
+  </body>
+</html>
